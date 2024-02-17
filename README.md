@@ -23,6 +23,6 @@ Here are some of the projects I have worked on:
 
 ## Contact Me
 
-If you have any questions or would like to collaborate, feel free to reach out to me at [email@example.com](mailto:email@example.com).
+If you have any questions or would like to collaborate, feel free to reach out to me at [mooshieblob@pm.me](mailto:mooshieblob@pm.me).
 
 Happy exploring!

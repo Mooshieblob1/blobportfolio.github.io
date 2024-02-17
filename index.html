@@ -4,47 +4,37 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
-    <head>
-        <head>
-            <meta charset="UTF-8">
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
-            <title>React App</title>
-            <link rel="stylesheet" href="styles.css">
-        </head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>React App</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <div id="root">
-            <h1 class="header">Welcome</h1>
-        </div>
-
-        <!-- Include the React and ReactDOM libraries -->
-        <script src="https://unpkg.com/react@17.0.2/umd/react.development.js"></script>
-        <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.development.js"></script>
-
-        <!-- Include your React components -->
-        <script src="path/to/your/react-components.js"></script>
-
-        <!-- Include Font Awesome icons -->
-        <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
-
-        <!-- Add the carousel -->
-        <div class="carousel">
-            <!-- Add side arrows -->
-            <button class="arrow arrow-left" type="button" onclick="showPreviousImages()" title="Show Previous Images"><i class="fas fa-chevron-left"></i></button>
-            <link rel="preload" href="https://cdn.aibooru.download/sample/a2/4e/__original_generated_by_blob_artist_using_novelai__sample-a24ee7b933ddf33ac8550e76f17f5a25.jpg" as="image">
-            <link rel="preload" href="https://cdn.aibooru.download/sample/ff/87/__original_generated_by_blob_artist_using_novelai__sample-ff87f008925712473e84a2e4cc89164a.jpg" as="image">
-            <link rel="preload" href="https://cdn.aibooru.download/sample/85/8e/__ono_kanami_original_generated_by_blob_artist_using_novelai__sample-858e3342cbec4e0afa4a674230f594b5.jpg" as="image">
-            <img src="https://cdn.aibooru.download/sample/a2/4e/__original_generated_by_blob_artist_using_novelai__sample-a24ee7b933ddf33ac8550e76f17f5a25.jpg" alt="Image 1" onclick="enlargeImage(this)">
-            <img src="https://cdn.aibooru.download/sample/ff/87/__original_generated_by_blob_artist_using_novelai__sample-ff87f008925712473e84a2e4cc89164a.jpg" alt="Image 2" onclick="enlargeImage(this)">
-            <img src="https://cdn.aibooru.download/sample/85/8e/__ono_kanami_original_generated_by_blob_artist_using_novelai__sample-858e3342cbec4e0afa4a674230f594b5.jpg" alt="Image 3" onclick="enlargeImage(this)">
-            <button class="arrow arrow-right" type="button" onclick="showNextImages()" title="Show Next Images"><i class="fas fa-chevron-right"></i></button>
-        </div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React App</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include Font Awesome icons -->
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="root">
+        <h1 class="header">Welcome</h1>
     </div>
+
+    <!-- Add the carousel -->
+    <div class="carousel">
+        <!-- Add side arrows -->
+        <button class="arrow arrow-left" type="button" onclick="showPreviousImages()" title="Show Previous Images"><i class="fas fa-chevron-left"></i></button>
+        <link rel="preload" href="https://cdn.aibooru.download/sample/a2/4e/__original_generated_by_blob_artist_using_novelai__sample-a24ee7b933ddf33ac8550e76f17f5a25.jpg" as="image">
+        <link rel="preload" href="https://cdn.aibooru.download/sample/ff/87/__original_generated_by_blob_artist_using_novelai__sample-ff87f008925712473e84a2e4cc89164a.jpg" as="image">
+        <link rel="preload" href="https://cdn.aibooru.download/sample/85/8e/__ono_kanami_original_generated_by_blob_artist_using_novelai__sample-858e3342cbec4e0afa4a674230f594b5.jpg" as="image">
+        <img src="https://cdn.aibooru.download/sample/a2/4e/__original_generated_by_blob_artist_using_novelai__sample-a24ee7b933ddf33ac8550e76f17f5a25.jpg" alt="Image 1" onclick="enlargeImage(this)">
+        <img src="https://cdn.aibooru.download/sample/ff/87/__original_generated_by_blob_artist_using_novelai__sample-ff87f008925712473e84a2e4cc89164a.jpg" alt="Image 2" onclick="enlargeImage(this)">
+        <img src="https://cdn.aibooru.download/sample/85/8e/__ono_kanami_original_generated_by_blob_artist_using_novelai__sample-858e3342cbec4e0afa4a674230f594b5.jpg" alt="Image 3" onclick="enlargeImage(this)">
+        <button class="arrow arrow-right" type="button" onclick="showNextImages()" title="Show Next Images"><i class="fas fa-chevron-right"></i></button>
+    </div>
+
+    <!-- Include the React and ReactDOM libraries -->
+    <script src="https://unpkg.com/react@17.0.2/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.development.js"></script>
+
+    <!-- Include your React components -->
+    <script src="path/to/your/react-components.js"></script>
 
     <script src="scripts.js"></script>
 </body>

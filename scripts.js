@@ -1,3 +1,4 @@
+import fetch from 'node-fetch'; // Import the fetch function
         // Array to store the images
         let images = [];
 

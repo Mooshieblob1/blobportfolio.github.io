@@ -8,11 +8,7 @@ I am a passionate software developer with experience in various programming lang
 
 ## Projects
 
-Here are some of the projects I have worked on:
-
-- Project 1: Description of project 1.
-- Project 2: Description of project 2.
-- Project 3: Description of project 3.
+- Project Diffusion: A visual novel created using AI.
 
 ## Skills
 

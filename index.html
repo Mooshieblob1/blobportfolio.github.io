@@ -16,6 +16,38 @@
         body {
             background-color: black;
         }
+
+        /* Center the carousel */
+        .carousel {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw; /* Set the width to 100% of the viewport width */
+            height: 100vh; /* Set the height to 100% of the viewport height */
+        }
+
+        /* Autosize images to 25% */
+        .carousel img {
+            width: 25%;
+            height: auto;
+            padding: 10px; /* Add padding between each image */
+            border-radius: 20px; /* Add rounded corners */
+            filter: grayscale(100%); /* Make the images grayed out by default */
+            transition: all 0.3s ease; /* Add transition effect */
+        }
+
+        /* Change the image style on hover */
+        .carousel img:hover {
+            transform: scale(1.1); /* Grow the image slightly */
+            filter: grayscale(0%); /* Regain the color */
+        }
+
+        /* Enlarge the image on click */
+        .carousel img.enlarged {
+            width: 40vw;
+            height: auto;
+            filter: grayscale(0%);
+        }
     </style>
 </head>
 <body>
@@ -29,5 +61,18 @@
 
     <!-- Include your React components -->
     <script src="path/to/your/react-components.js"></script>
+
+    <!-- Add the carousel -->
+    <div class="carousel">
+        <img src="https://cdn.aibooru.download/sample/a2/4e/__original_generated_by_blob_artist_using_novelai__sample-a24ee7b933ddf33ac8550e76f17f5a25.jpg" alt="Image 1" onclick="enlargeImage(this)">
+        <img src="https://cdn.aibooru.download/sample/ff/87/__original_generated_by_blob_artist_using_novelai__sample-ff87f008925712473e84a2e4cc89164a.jpg" alt="Image 2" onclick="enlargeImage(this)">
+        <img src="https://cdn.aibooru.download/sample/85/8e/__ono_kanami_original_generated_by_blob_artist_using_novelai__sample-858e3342cbec4e0afa4a674230f594b5.jpg" alt="Image 3" onclick="enlargeImage(this)">
+    </div>
+
+    <script>
+        function enlargeImage(img) {
+            img.classList.toggle("enlarged");
+        }
+    </script>
 </body>
 </html>

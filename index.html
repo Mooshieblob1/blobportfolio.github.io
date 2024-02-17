@@ -8,69 +8,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>React App</title>
-        <style>
-            /* Add CSS styles for the header */
-            .header {
-                font-family: 'Kode Mono', monospace;
-                text-align: center;
-                color: white;
-            }
-
-            /* Set the background color to black */
-            body {
-                background-color: black;
-            }
-
-            /* Center the carousel */
-            .carousel {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                width: 100vw; /* Set the width to 100% of the viewport width */
-                height: 100vh; /* Set the height to 100% of the viewport height */
-            }
-
-            /* Autosize images to 25% */
-            .carousel img {
-                width: 25%;
-                height: auto;
-                padding: 10px; /* Add padding between each image */
-                border-radius: 20px; /* Add rounded corners */
-                filter: grayscale(100%); /* Make the images grayed out by default */
-                transition: all 0.3s ease; /* Add transition effect */
-            }
-
-            /* Change the image style on hover */
-            .carousel img:hover {
-                transform: scale(1.1); /* Grow the image slightly */
-                filter: grayscale(0%); /* Regain the color */
-            }
-
-            /* Enlarge the image on click */
-            .carousel img.enlarged {
-                width: 40vw;
-                height: auto;
-                filter: grayscale(0%);
-            }
-
-            /* Mobile-specific styles */
-            @media (max-width: 600px) {
-                /* Center the carousel vertically on mobile */
-                .carousel {
-                    align-items: flex-start;
-                }
-
-                /* Reduce the image size on mobile */
-                .carousel img {
-                    width: 50%;
-                }
-
-                /* Enlarge the image on click on mobile */
-                .carousel img.enlarged {
-                    width: 80vw;
-                }
-            }
-        </style>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <div id="root">

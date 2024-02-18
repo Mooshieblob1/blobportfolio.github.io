@@ -8,11 +8,7 @@ I am a passionate software developer with experience in various programming lang
 
 ## Projects
 
-Here are some of the projects I have worked on:
-
-- Project 1: Description of project 1.
-- Project 2: Description of project 2.
-- Project 3: Description of project 3.
+- Project Diffusion: A visual novel created using AI.
 
 ## Skills
 
@@ -23,6 +19,6 @@ Here are some of the projects I have worked on:
 
 ## Contact Me
 
-If you have any questions or would like to collaborate, feel free to reach out to me at [email@example.com](mailto:email@example.com).
+If you have any questions or would like to collaborate, feel free to reach out to me at [mooshieblob@pm.me](mailto:mooshieblob@pm.me).
 
 Happy exploring!
